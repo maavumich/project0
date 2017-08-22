@@ -33,6 +33,8 @@ public:
 
 	GLint color() const noexcept { return color_; }
 
+	Gluint prog() const noexcept { return prog; }
+
 private:
 	// The program identifier
 	GLuint prog;
