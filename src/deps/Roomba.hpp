@@ -19,7 +19,6 @@ public:
 	virtual void render();
 	// Returns 'r' for red, 'g' for green, 'b' for blue
 	char getColor();
-	
 private:
 	// Called before render() by render to do pre render setup
 	virtual void setup();
