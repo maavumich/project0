@@ -1,3 +1,6 @@
+#ifndef _OBSTACLE_HPP_
+#define _OBSTACLE_HPP_
+
 #include "Entity.hpp"
 #include "Circle.hpp"
 #include "Rectangle.hpp"
@@ -20,3 +23,5 @@ private:
 	Circle roombaBody;
 	Circle pillar;
 };
+
+#endif
