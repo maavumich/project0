@@ -33,11 +33,11 @@ public:
 
 	GLint color() const noexcept { return color_; }
 
-	Gluint prog() const noexcept { return prog; }
+	GLuint prog() const noexcept { return prog_; }
 
 private:
 	// The program identifier
-	GLuint prog;
+	GLuint prog_;
 
 	// Locations of attributes
 	GLint vert_, color_;
