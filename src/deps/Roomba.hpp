@@ -12,7 +12,7 @@ class Roomba : public AnimatedEntity
 {
 public:
 	Roomba(float xInit, float yInit, float yawInit, float radiusInit,
-		Program *program, const float *color);
+		const float *color, Program *program);
 	// Update
 	virtual void update();
 	// Called by renderer to render object
@@ -21,6 +21,7 @@ public:
 	char getColor();
 private:
 	float color[3];
+	Circle border;
 	Circle roombaBody;
 	Rectangle panelLarge;
 	Rectangle panelSmall;

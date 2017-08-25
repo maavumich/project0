@@ -11,14 +11,18 @@
 
 class Obstacle : public AnimatedEntity
 {
-	Obstacle(float xInit, float yInit, float angleInit, float radiusInit,
-		Program *program, float *color);
+public:
+	Obstacle(float xInit, float yInit, float yawInit, float radiusInit,
+		const float *colorIn, Program *program);
 	virtual void update();
 	virtual void render();
 private:
-	virtual void setup();
+	Circle border;
 	Circle roombaBody;
 	Circle pillar;
+	Circle outerBorder;
+	Circle innerBorder;
+	Circle insidePillar;
 };
 
 #endif
