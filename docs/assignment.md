@@ -155,6 +155,7 @@ in an oven, and so on.
 
 If you put _all_ of that in `main`, you would get a program that looks
 something like:
+
 		int main()
 		{
 			// get all the ingredients
@@ -175,6 +176,7 @@ something like:
 This is clunky and inelegant. Notice that the second "chunk" of code
 describes the process of washing your hands; that's something that you'd do
 multiple times as you prepare food.
+
 			// ...
 			// pour egg yolks and egg whites into bowl
 			// need to clean uncooked egg off of hands
@@ -194,6 +196,7 @@ cake _now_, you decide to dry your hands on your face.
 
 You open your text editor's find-replace tool and replace every instance of
 "towel" with "my face".
+
 			// turn on faucet
 			// stick hands under water
 			// put soap on hands
@@ -203,11 +206,13 @@ You open your text editor's find-replace tool and replace every instance of
 			// turn off faucet
 
 Huzzah! That works as intended! But, wait, what about this code?
+
 			// ...
 			// as cake cooks, clean up mess in kitchen
 			// wipe up spilled cooking ingredients with **towel**
 
 Wait! _Noooooo!_
+
 			// wipe up spilled cooking ingredients with **my face**
 
 We wrote a program that successfully bakes a cake, but not the kind of cake
@@ -240,6 +245,7 @@ You only have one procedure for washing your hands. Put it all in one
 place, maybe add some parameters (which sink do you use? are you just
 rinsing, or are your washing properly?), then slap a name of in
 (`washHands`) and call it a day.
+
 		void washHands(Location sink_loc, WashMethod method)
 		{
 			moveTo(sink_loc);
