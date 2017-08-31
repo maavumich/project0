@@ -46,6 +46,9 @@ project likes tryharding and big words.
 	* Loops (while, for, range-for)
 	* Switch cases
 	* Function headers and forward declaration
+* C++ I/O
+	* `std::cout` and `std::cerr`
+	* Filestreams
 * Coding style
 	* Indentation (tabs vs. spaces vs. tabs-with-spaces-for-alignment)
 	* Where to put curly braces (Kernighan and Ritchie vs. Allman)
@@ -77,7 +80,7 @@ Contains:
 	* `./src/AClass.cpp`
 	* `./src/AStruct.cpp`
 	* `./src/Makefile`
-	* `./src/project0.cpp`
+	* `./src/part0.cpp`
 
 ### Potentially Useful		[`./maybe_useful`]
 
