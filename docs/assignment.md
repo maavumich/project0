@@ -233,13 +233,13 @@ into the drink. The drops shrink, vaporize.
 Was that my mistake--you think, letting the glass drop to the
 table--lethargy, sloth, a lack of ambition?
 
-No, you realize, you cleaned a kitchen by scrubbing it with our face.
+No, you realize, you cleaned a kitchen by scrubbing it with your face.
 
 _You were a fool._
 
 Issues like this often occur when you duplicate your code. This is why one
 of the points of emphasis in the MAAV style guide is to [Not Repeat
-Yourself.](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 You only have one procedure for washing your hands. Put it all in one
 place, maybe add some parameters (which sink do you use? are you just
