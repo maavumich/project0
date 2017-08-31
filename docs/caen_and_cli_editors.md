@@ -9,10 +9,10 @@
 [The Actual Assignment](#ASSIGNMENT)
 * [Note on CAEN's SSH URL](#URL_NOTE)
 * [Step One: Install an SSH Client](#1)
-	* [Chrome](#CHROME)
-	* [Windows](#WINDOWS)
-	* [macOS](#MAC_OS)
-	* [Linux/Ubuntu](#LINUX)
+    * [Chrome](#CHROME)
+    * [Windows](#WINDOWS)
+    * [macOS](#MAC_OS)
+    * [Linux/Ubuntu](#LINUX)
 * [Step Two: Choose a Text Editor](#2)
 
 # <a name="CAEN">What is CAEN?</a>
@@ -90,13 +90,13 @@ learning how to SSH into CAEN just for heck of it, you can try this too!**
 
 ## <a name="URL_NOTE">Note on CAEN's SSH URL</a>
 When I say to connect to:
-		[your-uniqname]@login.engin.umich.edu
+    [your-uniqname]@login.engin.umich.edu
 
 You should replace the entirety of `[your-uniqname]` with your uniqname,
 _including_ the square brackets.
 
 For instance, this is the address I use:
-		yiliny@login.engin.umich.edu
+    yiliny@login.engin.umich.edu
 
 
 ## <a name="1">STEP ONE:</a> Get an SSH Client
@@ -117,7 +117,8 @@ because you're able to install Chrome on all three.
 Just open the link in Chrome and click the `INSTALL` button.
 
 To use, type this URL into the Chrome address bar and hit Enter:
-		ssh://[your-uniqname]@login.engin.umich.edu
+
+    ssh://[your-uniqname]@login.engin.umich.edu
 
 You'll have to authenticate using your student account password (the one
 you use to sign into Wolverine Access).
@@ -148,13 +149,14 @@ forward) or `SHIFT-TAB` (to go backwards). "Click" buttons by pressing
 **Windows Subsystem for Linux (WSL), a.k.a. Bash on Ubuntu on Windows**
 [Link](https://goo.gl/d77ZC3)
 
-Allows you to natively run Ubuntu 14.04 on a Windows 10 machine. Similar to SSH
-itself, this only gives you access to a bash terminal shell (hence why it'll
+Allows you to natively run Ubuntu 14.04 on a Windows 10 machine. Like SSH,
+this only gives you access to a bash command-line interface (hence why it'll
 show up on your machine as "Bash on Ubuntu on Windows").
 
 Modern Ubuntu installations come with an SSH client preinstalled. After
 setting up your WSL installation, connect to CAEN by executing:
-		ssh [your-uniqname]@login.engin.umich.edu
+
+    ssh [your-uniqname]@login.engin.umich.edu
 
 from within Bash on Ubuntu on Windows.
 
@@ -176,7 +178,7 @@ macOS terminal, like Ubuntu, comes with an SSH client pre-installed.
 [Alternate Link (Ubuntu's Documentation)](https://goo.gl/bcBTBw)
 
 Connect to CAEN by opening a terminal window and executing:
-		ssh [your-uniqname]@login.engin.umich.edu
+    ssh [your-uniqname]@login.engin.umich.edu
 
 ### <a name="LINUX">Linux/Ubuntu</a>
 Modern Ubuntu installations come with an SSH client preinstalled.
@@ -185,7 +187,8 @@ Modern Ubuntu installations come with an SSH client preinstalled.
 [Link (Ubuntu's Documentation)](https://goo.gl/bcBTBw)
 
 Connect to CAEN by executing:
-		ssh [your-uniqname]@login.engin.umich.edu
+
+    ssh [your-uniqname]@login.engin.umich.edu
 
 from within the Terminal, which you can open by pressing `CTRL-ALT-T`.
 
@@ -195,7 +198,8 @@ SSH session. Here are some of the common ones (that are also already
 installed on CAEN and therefore usable without shenanigans).
 
 To open a file with one of these text editors, run:
-		[NAME_OF_EDITOR] [PATH_TO_FILE]
+
+    [NAME_OF_EDITOR] [PATH_TO_FILE]
 
 ### nano
 [Wikipedia Link](https://en.wikipedia.org/wiki/GNU_nano)
