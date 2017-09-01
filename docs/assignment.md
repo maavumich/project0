@@ -92,13 +92,7 @@ the language.
 
 See `./basic_syntax.md`. for more details.
 
-Part 2 - Header Files and the Compilation Process
---------------------------------------------------------------------------------
-**g++ preprocessing, the plaintext files produced when g++ actually
-executes #define and #include statements**
-
-
-Part 3 - Selection and Iteration
+Part 2 - Selection and Iteration
 --------------------------------------------------------------------------------
 One of the properties of a conventional programming language is called
 **sequential execution.** What that means is that, when you write a
@@ -141,7 +135,7 @@ among other things.
 
 See `./selection_and_iteration.md`. for more details.
 
-Part 4 - Functions (a.k.a Methods)
+Part 3 - Functions (a.k.a Methods)
 --------------------------------------------------------------------------------
 Up until now, you've been writing all of your code in a `main` method.
 You've probably noticed that this swiftly becomes bloated.
@@ -164,3 +158,32 @@ easier to read, easier to maintain, easier to debug, and easier to use.
 You'll write implementations for functions in this part.
 
 See `./functions.md` for more details.
+
+Part 4 - Header Files and the Compilation Process
+--------------------------------------------------------------------------------
+Though this is technically an EECS280 topic, it's used in almost every file
+in MAAV's codebase, so understanding how it works is crucial. Thankfully,
+it's actually pretty simple.
+
+Your code for "Hello, World!" and "Basic C++ Syntax" was written entirely
+inside of `.cpp` files, which is the standard file extension for a
+C-Plus-Plus source file. Header files are C++ files with the extension
+`.hpp` (or `.h`, but `.hpp` is preferred) that are `#include`d at the top
+of `.cpp` files or `.hpp` files.
+
+`.cpp` files are for _implementations,_ i.e. the "nitty-gritty" details of
+how your code really works. `.hpp` files, on the other hand, are for
+_documentation_ (i.e. "high-level" explanations of what your code does)
+and _declarations_ (function headers, class and struct definitions, and so
+on). You can think of header files as "outlines" of what your code should
+be.
+
+See `./header_files_and_compilation.md` for more details.
+
+Part 5 (OPTIONAL) - Classes and Structs
+--------------------------------------------------------------------------------
+
+
+Part 6 (OPTIONAL, BUT SUGGESTED) - Coding Style
+--------------------------------------------------------------------------------
+
