@@ -131,7 +131,8 @@ What's the syntax for writing a function in C++?
 ### Functions That Return Something
 
 #### Returns a Primitive
-    int integerDivide(int lhs, int rhs)
+
+	int integerDivide(int lhs, int rhs)
     {
         return lhs / rhs;
     }
@@ -153,4 +154,12 @@ type that you'll actually use most of the time.
 
 ### Functions That Return References
 
+### The `main` function
 
+	int main(int argc, char* argv[])
+	{
+
+	}
+
+Forward Declarations
+--------------------------------------------------------------------------------
