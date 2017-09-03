@@ -10,42 +10,6 @@ We intend for you to complete these parts in sequence, as they each build
 on material covered in the parts before.
 
 
-Part -2 (OPTIONAL, BUT SUGGESTED) - Develop on CAEN
---------------------------------------------------------------------------------
-The University's CAEN servers provide a "ready-to-use-(ish)" development
-environment, making it easy to get up and running with C++. This is
-optional, since you can also set up a C++ development environment on your
-local machine.
-
-### What is CAEN?
-It's a way to give yourself easy access to a Linux terminal environment
-without having to go through the trouble of getting Linux working on your
-machine.
-
-It's not practical to do this for "heavy" programming projects, but it's
-more than sufficient for something small like Project 0.
-
-See `./caen_and_cli_editors.md` for more details.
-
-Note that Part -2 overlaps _heavily_ with Part -1, since you'll be using
-CAEN through a text-only command-line interface. We suggest that you
-work through them "side by side", rather than completing them in strictly
-sequential order.
-
-### CAEN Access for LSA Students
-If you're an LSA student who has declared computer science as their major,
-CAEN treats you as if you're an engineering student and grants you all of
-the amenities of a CoE user (including the bonus printing allowance!).
-
-In general, however, students in the College of LSA do not receive CAEN
-access by default. To use CAEN, you have to [request CAEN
-access](https://caen.engin.umich.edu/accounts/eligibility/).
-
-You may be able to obtain limited access as a "non-engineering member of a
-student design team." Talk to a team lead if you're interested in doing
-that.
-
-
 Part -1 - Figure Out How to Terminal
 --------------------------------------------------------------------------------
 The Linux command line, or **terminal**, is an essential tool for a C++
@@ -67,6 +31,12 @@ experience with CLI's in the past.
 
 See `./terminal.md` for more details.
 
+Intro to projects
+-------------------------------------------------------------------------------
+This project will be using the material located at [c++.com] (www.cplusplus.com/doc/tutorial/) to
+teach you c++. You will be given a series of exercises to demonstrate your understanding of the
+material. These excercises will be due on Wednesday October 4th, 2017 after the meeting.
+
 Part 0 - Hello, World!
 --------------------------------------------------------------------------------
 Traditionally, when students are learning a programming language, the first
@@ -80,84 +50,41 @@ See `./hello_world.md` for more details.
 
 Part 1 - Basic C++ Syntax
 --------------------------------------------------------------------------------
-Oftentimes, when somebody tries to teach you a skill that's entirely new to
-you, they'll struggle a bit because you make small, "simple" mistakes.
-These are mistakes that your teacher made when they learned that skill for
-the first time, but it's been so long since you're teacher was a novice
-that they've forgotten that those hurdles exist.
+Part 1 is meant to teach the very basics of C++ syntax, such as structure of
+a program, variables and types, constants, operators, and basic I/O (input and output)
 
-Part 1 is meant to teach the very basics of C++ syntax, and some of the
-common mistakes that people make when they're first trying to program in
-the language.
+First, you should go to [c++.com] (www.cplusplus.com/doc/tutorial/), read the sections
+under "Basics of C++" and attempt to use them yourself and then complete the solution
+to exercise1.
 
-See `./basic_syntax.md`. for more details.
+### Exercise 1:
+Write a program that converts farenheit to celsius. It should accept the temperature in farenheit
+as input into the program using std::cin, and output the temperature in celcius to the
+terminal.
 
-Part 2 - Selection and Iteration
+Part 2 - Selection (if, else) and Iteration (loops)
 --------------------------------------------------------------------------------
-One of the properties of a conventional programming language is called
-**sequential execution.** What that means is that, when you write a
-program, the lines of code in that program will (generally speaking) be
-executed in order, line-by-line.
+Read the material at [c++.com/control] (www.cplusplus.com/doc/tutorial/control). Focus on
+selection statements, For Loops, and While Loops. You won't be tested on range-based for
+loops, do-while, or switch statments.
 
-You can still do useful things with this--the dependency installation bash
-scripts that you'll see in the navigation repository are "plain" scripts
-that run through from start to finish--but it greatly limits how complex
-your programs can be.
+### Exercise 2:
+Write a guessing game program.  The game will ask the player to guess a number between 1-20 using
+cin. The random number can be generated using the information found [Here](www.cplusplus.com/reference/cstlib/rand/).
+Give feedback based on the guess. If the number was too high output "Too High", if number was
+too low output "Too Low." If number was correct output "You win" then exit the program. Give the
+player an infinite number of guesses at first, then give the player a finite number of guesses.
 
-This is where selection and iteration come in handy.
-
-### What Are Selection and Iteration?
-**Selection** is just ["if-then-else"
-statements](https://en.wikipedia.org/wiki/Control_flow#Choice). If this
-condition is true, do this; if that's not true, but this other condition
-_is_ true, then do this; if none of those conditions are true, then do
-this, and so on.
-
-See `./selection.md` for more details.
-
-**Iteration** is the formal term for
-[loops.](https://en.wikipedia.org/wiki/Control_flow#Loops) Loops are useful
-when you have a particular piece of code that you want to execute over and
-over again.
-
-The kinds of loops that you'll use most often while working with C++ are:
-* `for` loops
-	* `range-for` loops (sometimes called "auto" for loops)
-* `while` loops
-
-See `./iteration.md` for more details.
-
-### Your Assignment
-We've written out some short exercises for you that require the use of
-selection and iteration. These are tasks like finding the maximum value
-within a list of numbers and writing an algorithm for integer division,
-among other things.
-
-See `./selection_and_iteration.md`. for more details.
+*Extra Challenge:*
+Make a dynamic number of guesses using rand and modulus.
 
 Part 3 - Functions (a.k.a Methods)
 --------------------------------------------------------------------------------
-Up until now, you've been writing all of your code in a `main` method.
-You've probably noticed that this swiftly becomes bloated.
+Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). Do not read
+"recursivity."  Passing in by reference vs. value is very important, so we have supplementary
+material found [here](link).
 
-Writing all of your code inside `main` is fast and easy when solving small
-problems, but when you're solving larger problems, there are just too many
-_things_ that `main` needs to do. You wind up lumping together several
-different "chunks" of code, all of which do different and largely unrelated
-things. The more complex the problem, the more cumbersome and awkward
-`main` becomes.
 
-A better approach would be to take the problem that you're trying to solve
-and break it down into small procedural "chunks". These chunks can then be
-converted into **functions**, which group the actions performed in those
-chunk togther.
-
-Almost all major programming and scripting languages implement functions
-in some way, and C++ is no exception. Using functions makes your code
-easier to read, easier to maintain, easier to debug, and easier to use.
-You'll write implementations for functions in this part.
-
-See `./functions.md` for more details.
 
 Part 4 - Header Files and the Compilation Process
 --------------------------------------------------------------------------------
