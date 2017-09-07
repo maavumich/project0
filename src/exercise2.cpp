@@ -1,25 +1,15 @@
-#include <iostream>
-
 /*******************************************************************************
- *	PART 0 - Hello, world!
+ *	PART 2 - Selection (if, else) and Iteration (loops)
  *==============================================================================
  *  References:
  *		`docs/part0.md`
  ******************************************************************************/
+#include <iostream>
 
-/**
- * EFFECTS:	Print the string "Hello, world!" to stdout, followed by a newline.
- */
-void doTheThing()
-{
-	// YOUR IMPLEMENTATION HERE
-}
+using namespace std; // allows you to write cout, instead of std::cout
 
-/**
- * EFFECTS: Tests your function implementations against an answer key.
- */
 int main()
 {
-	doTheThing();
+	// Write your farenheit to celsius conversion here
 	return 0;
 }

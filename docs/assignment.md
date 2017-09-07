@@ -72,11 +72,11 @@ Part 0 - Hello, World!
 Traditionally, when students are learning a programming language, the first
 project they create is called "Hello, world!"
 
-The only thing "Hello, world!" does is print the string `Hello, world!` to
-the terminal. If you're still working through kinks in your development
-environment, this is the best time to work those out.
+The only thing "Hello, world!" does is print the string `Hello, world!` to the terminal. If you're still working through kinks in your development environment, this is the best time to work those out.
 
 See `./hello_world.md` for more details.
+
+Write your implementation in exercise0.cpp.
 
 Part 1 - Basic C++ Syntax
 --------------------------------------------------------------------------------
