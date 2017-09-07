@@ -84,9 +84,13 @@ Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/function
 "recursivity."  Passing in by reference vs. value is very important, so we have supplementary
 material found [here](link).
 
+Part 4 - Vectors (lists) and Strings
+--------------------------------------------------------------------------------
+Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). 
 
+### Exercise 4:
 
-Part 4 - Header Files and the Compilation Process
+Part 5 - Header Files and the Compilation Process
 --------------------------------------------------------------------------------
 Though this is technically an EECS280 topic, it's used in almost every file
 in MAAV's codebase, so understanding how it works is crucial. Thankfully,
