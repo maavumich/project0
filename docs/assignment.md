@@ -71,7 +71,7 @@ loops, do-while, or switch statments.
 
 ### Exercise 2:
 Write a guessing game program.  The game will ask the player to guess a number between 1-20 using
-cin. The random number can be generated using the information found [Here](www.cplusplus.com/reference/cstlib/rand/).
+cin. The random number can be generated using the information found [Here](http://www.cplusplus.com/reference/cstdlib/rand/).
 Give feedback based on the guess. If the number was too high output "Too High", if number was
 too low output "Too Low." If number was correct output "You win" then exit the program. Give the
 player an infinite number of guesses at first, then give the player a finite number of guesses. 
@@ -97,7 +97,9 @@ Part 4 - Vectors (lists) and Strings
 Need to link to @necktards slides.
 
 ### Exercise 4:
-Write a sorting algorithm. Your task is to sort a vector of words alphabetically. Given the list 
+*Part 1:* In Exercise 3 you created a program that could print a vector. Move your code from exercise 3 into a function.
+
+*Part 2:* Write a sorting algorithm. Your task is to sort a vector of words alphabetically. Given the list 
 {banana, pear, apple} your program should output {apple, banana, pear}.
 
 Write your implementation in exercise4.cpp.
