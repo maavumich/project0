@@ -72,7 +72,9 @@ Part 0 - Hello, World!
 Traditionally, when students are learning a programming language, the first
 project they create is called "Hello, world!"
 
-The only thing "Hello, world!" does is print the string `Hello, world!` to the terminal. If you're still working through kinks in your development environment, this is the best time to work those out.
+The only thing "Hello, world!" does is print the string `Hello, world!` to
+the terminal. If you're still working through kinks in your development
+environment, this is the best time to work those out.
 
 See `./hello_world.md` for more details.
 
@@ -162,8 +164,8 @@ See `./functions.md` for more details.
 Part 4 - Header Files and the Compilation Process
 --------------------------------------------------------------------------------
 Though this is technically an EECS280 topic, it's used in almost every file
-in MAAV's codebase, so understanding how it works is crucial. Thankfully,
-it's actually pretty simple.
+in MAAV's codebase, so understanding how this works is crucial. Thankfully,
+header files aren't very complicated.
 
 Your code for "Hello, World!" and "Basic C++ Syntax" was written entirely
 inside of `.cpp` files, which is the standard file extension for a
