@@ -88,13 +88,15 @@ Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/function
 material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC 
 
 ### Exercise 3:
-
+Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp. 
 
 Write your implementation in exercise3.cpp.
 
 Part 4 - Vectors (lists) and Strings
 --------------------------------------------------------------------------------
-Need to link to @necktards slides.
+Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). Do not read
+"recursivity."  Passing in by reference vs. value is very important, so we have supplementary
+material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC 
 
 ### Exercise 4:
 *Part 1:* In Exercise 3 you created a program that could print a vector. Move your code from exercise 3 into a function.
