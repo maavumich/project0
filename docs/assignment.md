@@ -46,7 +46,7 @@ The only thing "Hello, world!" does is print the string `Hello, world!` to the t
 
 See `./hello_world.md` for more details.
 
-Write your implementation in exercise0.cpp. 
+Write your implementation in exercise0.cpp.
 
 Part 1 - Basic C++ Syntax
 --------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ to exercise1.
 ### Exercise 1:
 Write a program that converts farenheit to celsius. It should accept the temperature in farenheit
 as input into the program using std::cin, and output the temperature in celcius to the
-terminal. 
+terminal.
 
 Write your implementation in exercise1.cpp.
 
@@ -74,7 +74,7 @@ Write a guessing game program.  The game will ask the player to guess a number b
 cin. The random number can be generated using the information found [Here](http://www.cplusplus.com/reference/cstdlib/rand/).
 Give feedback based on the guess. If the number was too high output "Too High", if number was
 too low output "Too Low." If number was correct output "You win" then exit the program. Give the
-player an infinite number of guesses at first, then give the player a finite number of guesses. 
+player an infinite number of guesses at first, then give the player a finite number of guesses.
 
 Write your implementation in exercise2.cpp.
 
@@ -85,10 +85,10 @@ Part 3 - Functions (a.k.a Methods)
 --------------------------------------------------------------------------------
 Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). Do not read
 "recursivity."  Passing in by reference vs. value is very important, so we have supplementary
-material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC 
+material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC
 
 ### Exercise 3:
-Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp. 
+Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp.
 
 Write your implementation in exercise3.cpp.
 
@@ -96,12 +96,12 @@ Part 4 - Vectors (lists) and Strings
 --------------------------------------------------------------------------------
 Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). Do not read
 "recursivity."  Passing in by reference vs. value is very important, so we have supplementary
-material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC 
+material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC
 
 ### Exercise 4:
 *Part 1:* In Exercise 3 you created a program that could print a vector. Move your code from exercise 3 into a function.
 
-*Part 2:* Write a sorting algorithm. Your task is to sort a vector of words alphabetically. Given the list 
+*Part 2:* Write a sorting algorithm. Your task is to sort a vector of words alphabetically. Given the list
 {banana, pear, apple} your program should output {apple, banana, pear}.
 
 Write your implementation in exercise4.cpp.
@@ -127,10 +127,42 @@ be.
 
 See `./header_files_and_compilation.md` for more details.
 
-Part 5 (OPTIONAL) - Classes and Structs
+
+Part 6 - Wrap up project and algorithmic thinking
 --------------------------------------------------------------------------------
+Throughout the earlier parts of this project, you have been introduced to and have
+had practice with a variety of tools available to you in C++. This project serves
+as a cap-stone for everything taught thus far and requires a bit of thought on
+your part.
 
+### Exercise 6:
+*Background:* the goal of this project is to create a cipher that would obscure
+the words put into the program and spit out something that could be later
+decrypted through the use of your program. The base for this project is the
+rot13 cipher for which more information can be found [here] (https://en.wikipedia.org/wiki/ROT13).
+You will implement something similar that uses a few more steps to encrypt and decrypt.
 
-Part 6 (OPTIONAL, BUT SUGGESTED) - Coding Style
---------------------------------------------------------------------------------
+*The Exercise* will require you to use everything that you have learned thus far in
+project0, that means strings, vectors, selection, functions, and knowledge of how
+to construct a basic C++ program.
 
+Start first by creating a main() function in exercise6.cpp and #including iostream.
+
+You will read in a string that can be multiple words long. Once read, it needs to
+be broken up into individual words which should be stored in a vector of words in the
+same order they were inputted.
+
+You need to duplicate this vector of words, as it will be both encrypted and decrypted.
+
+You will need to reverse the order of the words in the vectors of words.
+
+You will now using a loop shift the characters in each word by the amount corresponding
+to its index, i.e. its location in the vector. For example words[3] would be at location 3.
+Its characters would be shifted forward by 3. For decrypting, the characters will be shifted
+in the opposite direction by 3 (be sure to be able to handle when it goes below 1).
+
+Now they need to be outputted to the terminal window with spaces between every word.
+
+Relatively little starter code is provided, make use of loops and functions to minimize
+the amount of work you will have to do. As this project tests your ability to make use
+of functions effectively, it would not make sense to provide fill in the blank code.
