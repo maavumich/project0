@@ -211,21 +211,67 @@ as quickly as possible, though I would argue that you're better off using
 vim or emacs (since both of those are powerful enough to become your
 primary text editor for the rest of college and your career).
 
+**nano comes preinstalled on Ubuntu 16.04 and is already installed on
+CAEN.**
+
 **Open a file with:** `nano path/to/file`
 
 ### vim
 [Wikipedia Link](https://en.wikipedia.org/wiki/Vim_(text_editor))
-[Usage Tutorial](http://www.openvim.com/)
+[Basic Usage Tutorial](http://www.openvim.com/)
 (Or run `vimtutor` from the terminal.)
 
 vim is the most popular text editor out of those listed here. It has a
 somewhat steep learning curve, but it is [extraordinarily
-powerful](https://youtu.be/o6omymj1JZI?t=55s) once you [figure out how to
-use it]() **TODO TODO TODO**
+powerful](https://youtu.be/o6omymj1JZI?t=55s) once you figure out how to
+use it.
 
-The vast majority of MAAV's software team uses vim, including myself.
-**TODO: migrate vimrc git to github**
-**TODO: link to my vimrc github**
-**TODO: record a video of me doing cool stuff with vim**
+You can install plugins to customize vim's existing functionality or add
+new features altogether. Without even installing new plugins, you can
+rebind almost all of vim's keymappings by editing your `~/.vimrc` file.
+With plugins, vim can support [code
+autocompletion](https://github.com/Valloric/YouCompleteMe), [syntax
+checking](https://github.com/vim-syntastic/syntastic/), [Git
+integration](https://github.com/tpope/vim-fugitive),
+[and jumping directly to the definition of the function or class whose name
+is under your cursor](https://youtu.be/4f3AENLrdYo?t=2m52s).
 
-I have
+The vast majority of MAAV's software team uses vim.
+
+**vim may not be installed on Ubuntu 16.04 by default. Install it with
+`sudo apt install vim`.**
+
+**vim is already installed on CAEN.**
+
+**Open a file with:** `vim path/to/file`
+
+### neovim
+[GitHub Page](https://github.com/neovim/neovim)
+[Usage Tutorial](http://www.openvim.com/)
+(Or run `vimtutor` from the terminal.)
+
+neovim is a fork of vim. It supports all of the same basic features,
+keymappings, and plugins, with some internal refactoring and some new
+features of its own. The most notable of these features are a built-in
+terminal (so that you can view your code in one half of your screen and
+compile it from the other, all from within neovim) and support for "remote
+plugins", which are like vim plugins, except they're written in Python
+rather than vimscript. When it was first released, one of neovim's selling
+points over vim was built-in support for multithreaded ("asynchronous", or
+"async") plugins that could run "in the background" without freezing the
+terminal.
+
+You won't notice a major difference between neovim and vim when you first
+start using them, but when you feel like switching over, you should
+consider using:
+
+**For Autocompletion**
+YouCompleteMe is the most population autocompletion engine for vim, but it
+was written before standard vim had async support. Because of this,
+YouCompleteMe has its own "in-house" multithreading library that makes its
+codebase huge (>30MB). These plugins use neovim's built-in async API.
+* [nvim-completion-manager](https://github.com/roxma/nvim-completion-manager)
+* [deoplete](https://github.com/Shougo/deoplete.nvim)
+
+**For Syntax Checking**
+
