@@ -24,10 +24,21 @@ Then open `exercise5-0_preprocessed.cpp` in a text editor. This file is
 called a **translation unit**, which we'll explain in more detail in a
 later project.
 
+You'll see a text file containing a ton of "scaffolding" (statements starting
+with `#` symbols whose functionality isn't immediately obvious). All of
+that does stuff, but it's not important for now. _Note the fact that the
+contents of `exercise5-0.hpp` are included in this file._
+
 Practice Declaring Function Prototypes
 --------------------------------------------------------------------------------
-Take the function prototypes from `exercise4.cpp` and move them into
-`exercise5-1.hpp`, then `#include` them at the top of `exercise4.cpp`.
+Take the function prototypes from `exercise4.cpp` and cut-and-paste them into
+`exercise5-1.hpp`. These are the lines that look like this:
+
+		// Function Prototypes Here
+		void printVector();
+		void sortVec(vector<string> &set);
+
+Add the text `#include exercise5-1.hpp` at the top of `exercise4.cpp`.
 
 Compile `exercise4.cpp` with the following terminal command...
 
