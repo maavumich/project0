@@ -33,7 +33,7 @@ See the linux cheat sheet [HERE] (https://drive.google.com/open?id=0B5O7hcI4VaMM
 
 Intro to projects
 -------------------------------------------------------------------------------
-This project will be using the material located at [HERE] (https://drive.google.com/file/d/0Bz0tMI9ydfZjOHlReWY5Y214V3c/view?usp=sharing) to
+This project will be using the material located at [HERE] (https://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) to
 teach you c++. You will be given a series of exercises to demonstrate your understanding of the
 material. These excercises will be due on Wednesday October 4th, 2017 after the meeting.
 
@@ -46,7 +46,7 @@ project they create is called "Hello, world!"
 
 The only thing "Hello, world!" does is print the string `Hello, world!` to the terminal. If you're still working through kinks in your development environment, this is the best time to work those out.
 
-See the Hello World slide from our c++ material [HERE] (https://drive.google.com/file/d/0Bz0tMI9ydfZjOHlReWY5Y214V3c/view?usp=sharing) 
+See the Hello World slide from our c++ material [HERE] (hhttps://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) 
 
 Write your implementation in exercise0.cpp.
 
