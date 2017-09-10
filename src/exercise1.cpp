@@ -2,7 +2,7 @@
  *	PART 1 - Basic C++ Syntax
  *==============================================================================
  *  References:
- *		`docs/part0.md`
+ *		`Slides on C++ Basics`
   *==============================================================================
  *  Hint:
  *		`Build off of your hello world program`

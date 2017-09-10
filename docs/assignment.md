@@ -29,13 +29,15 @@ Because the terminal is a Command Line Interface (CLI) and not a Graphical
 User Interface (GUI), you may find it difficult to use if you haven't had
 experience with CLI's in the past.
 
-See `./terminal.md` for more details.
+See the linux cheat sheet [HERE] (https://drive.google.com/open?id=0B5O7hcI4VaMMbGRqRmMtVEJnMHc).
 
 Intro to projects
 -------------------------------------------------------------------------------
-This project will be using the material located at [c++.com] (www.cplusplus.com/doc/tutorial/) to
+This project will be using the material located at [HERE] (https://drive.google.com/file/d/0Bz0tMI9ydfZjOHlReWY5Y214V3c/view?usp=sharing) to
 teach you c++. You will be given a series of exercises to demonstrate your understanding of the
 material. These excercises will be due on Wednesday October 4th, 2017 after the meeting.
+
+If you prefer a more in-depth tutorial please see [c++.com] (www.cplusplus.com/doc/tutorial/)
 
 Part 0 - Hello, World!
 --------------------------------------------------------------------------------
@@ -44,7 +46,7 @@ project they create is called "Hello, world!"
 
 The only thing "Hello, world!" does is print the string `Hello, world!` to the terminal. If you're still working through kinks in your development environment, this is the best time to work those out.
 
-See `./hello_world.md` for more details.
+See the Hello World slide from our c++ material [HERE] (https://drive.google.com/file/d/0Bz0tMI9ydfZjOHlReWY5Y214V3c/view?usp=sharing) 
 
 Write your implementation in exercise0.cpp.
 
@@ -52,9 +54,7 @@ Part 1 - Basic C++ Syntax
 --------------------------------------------------------------------------------
 Part 1 is meant to teach the very basics of C++ syntax, such as structure of a program, variables and types, constants, operators, and basic I/O (input and output)
 
-First, you should go to [c++.com] (www.cplusplus.com/doc/tutorial/), read the sections
-under "Basics of C++" and attempt to use them yourself and then complete the solution
-to exercise1.
+First, you should go to "Part 1 C++ Basics" on the slides. Read through the slides, run the example code, then complete the solution to exercise1.
 
 ### Exercise 1:
 Write a program that converts farenheit to celsius. It should accept the temperature in farenheit
@@ -65,9 +65,7 @@ Write your implementation in exercise1.cpp.
 
 Part 2 - Selection (if, else) and Iteration (loops)
 --------------------------------------------------------------------------------
-Read the material at [c++.com/control] (www.cplusplus.com/doc/tutorial/control). Focus on
-selection statements, For Loops, and While Loops. You won't be tested on range-based for
-loops, do-while, or switch statments.
+Read the slides covering Part 2: Selection and Iteration, then complete the exercise.
 
 ### Exercise 2:
 Write a guessing game program.  The game will ask the player to guess a number between 1-20 using
@@ -81,22 +79,18 @@ Write your implementation in exercise2.cpp.
 *Extra Challenge:*
 Make a dynamic number of guesses using rand and modulus.
 
-Part 3 - Functions (a.k.a Methods)
+Part 3 - Vectors (lists) and Strings
 --------------------------------------------------------------------------------
-Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). Do not read
-"recursivity."  Passing in by reference vs. value is very important, so we have supplementary
-material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC
+Read the slides covering Part 3: Selection and Iteration, then complete the exercise.
 
 ### Exercise 3:
-Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp.
+Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp. 
 
 Write your implementation in exercise3.cpp.
 
-Part 4 - Vectors (lists) and Strings
+Part 4 - Functions
 --------------------------------------------------------------------------------
-Read the material at [c++.com/function] (www.cplusplus.com/doc/tutorial/functions). Do not read
-"recursivity."  Passing in by reference vs. value is very important, so we have supplementary
-material found [here](). NEED LINK TO NECKARDTS SLIDE ON TOPIC
+Read the slides covering Part 4: Functions, then complete the exercise.
 
 ### Exercise 4:
 *Part 1:* In Exercise 3 you created a program that could print a vector. Move your code from exercise 3 into a function.

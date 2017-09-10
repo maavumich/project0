@@ -2,7 +2,7 @@
  *	PART 2 - Selection (if, else) and Iteration (loops)
  *==============================================================================
  *  References:
- *		`docs/part0.md`
+ *		`Slides on Selection/Iteration`
  ******************************************************************************/
 #include <iostream>
 

@@ -8,7 +8,7 @@ this repository.
 
 # Training Project 0
 
-The basics of C++. Basic syntax, header files, Makefiles, Linux terminal
+The basics of C++. Basic syntax, header files, Linux terminal
 commands. The optional zeroth project in the core training sequence.
 
 Trainees will write functions that solve "basic coding knowledge interview
@@ -23,8 +23,7 @@ Instructions and pass requirements are found in the `./docs` folder inside
 
 ## Topics Covered
 
-If this list looks imposing, don't let it frighten you. The author of this
-project likes tryharding and big words.
+If this list looks imposing, don't let it frighten you. We have broken down everything into bite-sized pieces.
 
 * How to terminal
 	* File-system navigation
@@ -33,29 +32,19 @@ project likes tryharding and big words.
 	* The `rm` command
 	* Basic regular expressions (or, "why `rm -rf ~/*` will make you deeply sad)
 	* `stdout`, `stderr`, and file redirection
-* Basic SSH usage
-	* The university's CAEN servers
-	* Command-line text editors
-	* Copying files with `scp`
-	* SSH aliases
 * C++ syntax
 	* Meaningful-versus-non-meaningful whitespace
 	* Semicolons
 	* Variables and variable scopes
 	* Conditional statements (if-then)
 	* Loops (while, for, range-for)
-	* Switch cases
 	* Function headers and forward declaration
 * C++ I/O
 	* `std::cout` and `std::cerr`
 	* Filestreams
-* Coding style
-	* Indentation (tabs vs. spaces vs. tabs-with-spaces-for-alignment)
-	* Where to put curly braces (Kernighan and Ritchie vs. Allman)
 * The compilation process / What `#include` actually does
 * Main functions
-* Classes
-	* The `new` keyword and how it might not do what you expect
+* Intro to Classes
 	* Constructors and constructing objects
 	* Access specifiers (`public`, `private`)
 
@@ -68,8 +57,6 @@ by this project.
 
 Contains:
 * The assignment, in detail (`./docs/assignment.md`)
-* How to self-grade your project (`./docs/grading.md`)
-* Links to other helpful resources (`./docs/notes.md`).
 
 ### Source					[`./src`]
 
@@ -77,12 +64,11 @@ The actual project implementation.
 
 Contains:
 * Starter files
-	* `./src/AClass.cpp`
-	* `./src/AStruct.cpp`
-	* `./src/Makefile`
-	* `./src/part0.cpp`
+	* `./src/exercise0.cpp`
+	* `./src/exercise1.cpp`
+	* `./src/exercise2.cpp`
+	* `./src/exercise3.cpp`
+	* `./src/exercise4.cpp`
+	* `./src/exercise5.cpp`
+	* `./src/exercise6.cpp`
 
-### Potentially Useful		[`./maybe_useful`]
-
-Some resources that you might find useful while working on your project.
-Non-essential to the project itself.
