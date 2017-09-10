@@ -14,6 +14,7 @@
     * [macOS](#MAC_OS)
     * [Linux/Ubuntu](#LINUX)
 * [Step Two: Choose a Text Editor](#2)
+* [Step Three: Start the Project](#3)
 
 # <a name="CAEN">What is CAEN?</a>
 If you're in the College of Engineering, you have access to the
@@ -261,6 +262,15 @@ points over vim was built-in support for multithreaded ("asynchronous", or
 "async") plugins that could run "in the background" without freezing the
 terminal.
 
+**neovim is not installed on Ubuntu 16.04 by default. Reference the GitHub
+page for installation instructions.**
+
+**You have to resort to shenanigans to get neovim installed on CAEN, so you
+probably shouldn't try for now.**
+
+**If you install it on your local machine, open a file with:**
+		nvim path/to/file
+
 You won't notice a major difference between neovim and vim when you first
 start using them, but when you feel like switching over, you should
 consider using:
@@ -274,4 +284,23 @@ codebase huge (>30MB). These plugins use neovim's built-in async API.
 * [deoplete](https://github.com/Shougo/deoplete.nvim)
 
 **For Syntax Checking**
+* [neomake](https://github.com/neomake/neomake)
 
+**For An IDE-Like Debugging Interface**
+The installation process for this plugin can be finicky, just because LLDB
+(one of the prerequisites for using it) often doesn't install correctly.
+Contact `yiliny` if you want information on how to install this.
+* [lldb.nvim](https://github.com/dbgx/lldb.nvim)
+
+### emacs
+[Wikipedia Page](https://en.wikipedia.org/wiki/Emacs)
+
+No.
+
+
+## <a name="3">Step Three: Start the Project</a>
+Clone this project repo into a directory on your CAEN drive with:
+
+		git clone https://github.com/maavumich/project0.git
+
+And you're set!
