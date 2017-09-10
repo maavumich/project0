@@ -46,7 +46,7 @@ project they create is called "Hello, world!"
 
 The only thing "Hello, world!" does is print the string `Hello, world!` to the terminal. If you're still working through kinks in your development environment, this is the best time to work those out.
 
-See the Hello World slide from our c++ material [HERE](hhttps://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) 
+See the Hello World slide from our c++ material [HERE](hhttps://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing)
 
 Write your implementation in exercise0.cpp.
 
@@ -84,7 +84,7 @@ Part 3 - Vectors (lists) and Strings
 Read the slides covering Part 3: Selection and Iteration, then complete the exercise.
 
 ### Exercise 3:
-Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp. 
+Create a program that can print out a vector.  A vector is defined for you in exercise3.cpp.
 
 Write your implementation in exercise3.cpp.
 
@@ -120,6 +120,9 @@ on). You can think of header files as "outlines" of what your code should
 be.
 
 See `./header_files_and_compilation.md` for more details.
+
+Write your implementation in `exercise5-0.hpp`, `exercise5-0.cpp`,
+`exercise5-1.hpp`, and your code in `exercise4.cpp`.
 
 
 Part 6 - Wrap up project and algorithmic thinking
