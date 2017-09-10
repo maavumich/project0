@@ -29,15 +29,15 @@ Because the terminal is a Command Line Interface (CLI) and not a Graphical
 User Interface (GUI), you may find it difficult to use if you haven't had
 experience with CLI's in the past.
 
-See the linux cheat sheet [HERE] (https://drive.google.com/open?id=0B5O7hcI4VaMMbGRqRmMtVEJnMHc).
+See the linux cheat sheet [HERE](https://drive.google.com/open?id=0B5O7hcI4VaMMbGRqRmMtVEJnMHc).
 
 Intro to projects
 -------------------------------------------------------------------------------
-This project will be using the material located at [HERE] (https://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) to
+This project will be using the material located at [HERE](https://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) to
 teach you c++. You will be given a series of exercises to demonstrate your understanding of the
 material. These excercises will be due on Wednesday October 4th, 2017 after the meeting.
 
-If you prefer a more in-depth tutorial please see [c++.com] (www.cplusplus.com/doc/tutorial/)
+If you prefer a more in-depth tutorial please see [c++.com](www.cplusplus.com/doc/tutorial/)
 
 Part 0 - Hello, World!
 --------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ project they create is called "Hello, world!"
 
 The only thing "Hello, world!" does is print the string `Hello, world!` to the terminal. If you're still working through kinks in your development environment, this is the best time to work those out.
 
-See the Hello World slide from our c++ material [HERE] (hhttps://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) 
+See the Hello World slide from our c++ material [HERE](hhttps://drive.google.com/drive/folders/0Bz0tMI9ydfZjVUhjUVoyVjNwdTQ?usp=sharing) 
 
 Write your implementation in exercise0.cpp.
 
@@ -133,7 +133,7 @@ your part.
 *Background:* the goal of this project is to create a cipher that would obscure
 the words put into the program and spit out something that could be later
 decrypted through the use of your program. The base for this project is the
-rot13 cipher for which more information can be found [here] (https://en.wikipedia.org/wiki/ROT13).
+rot13 cipher for which more information can be found [here](https://en.wikipedia.org/wiki/ROT13).
 You will implement something similar that uses a few more steps to encrypt and decrypt.
 
 *The Exercise* will require you to use everything that you have learned thus far in
