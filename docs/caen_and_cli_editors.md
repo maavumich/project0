@@ -25,7 +25,7 @@ CAEN computers in university computer labs (and all of the eye-bogglingly
 expensive CAD software that they contain) to an extra $40 of printing
 allowance that you--as an engineering student--will inevitably never use
 for anything except poster printing, whether that be for class
-presentations or for making wall-sized prints of Dickbutt at the end of a
+presentations or for making wall-sized poster prints at the end of a
 term.
 
 The part that we're interested in is the **CAEN Linux Login Service.**
