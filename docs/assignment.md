@@ -22,7 +22,7 @@ MAAV's documentation for this project can be found
 [here](https://goo.gl/e7jazg) and inside this folder (`./docs`).
 
 If you want a more detailed reference, a more in-depth tutorial can be
-found [here](www.cplusplus.com/doc/tutorial/).
+found [here](http://www.cplusplus.com/doc/tutorial/).
 
 Part -2 (OPTIONAL) - Develop on CAEN
 --------------------------------------------------------------------------------
@@ -62,7 +62,7 @@ Because the terminal is a Command Line Interface (CLI) and not a Graphical
 User Interface (GUI), you may find it difficult to use if you haven't had
 experience with CLI's in the past.
 
-See the Linux terminal cheat sheet [here](https://goo.gl/p3Voyh).
+See the Linux terminal cheat sheet [here](https://drive.google.com/open?id=0Bz0tMI9ydfZjaGNNbzU0VTZXWWc).
 
 
 Part 0 - Hello, World!

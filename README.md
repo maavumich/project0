@@ -41,12 +41,9 @@ If this list looks imposing, don't let it frighten you. We have broken down ever
 	* Function headers and forward declaration
 * C++ I/O
 	* `std::cout` and `std::cerr`
-	* Filestreams
 * The compilation process / What `#include` actually does
 * Main functions
-* Intro to Classes
-	* Constructors and constructing objects
-	* Access specifiers (`public`, `private`)
+* Header Files
 
 ## Directory Structure
 
