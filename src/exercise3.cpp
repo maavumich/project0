@@ -16,7 +16,7 @@ using namespace std;
 
 int main()
 {
-	vector<string> set1 = {'banana','apple','pear'};
+	vector<string> set1 = {"banana", "apple","pear"};
 
 	// ADD YOUR CODE HERE to print out the vector
 

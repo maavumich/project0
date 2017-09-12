@@ -10,6 +10,6 @@ using namespace std; // allows you to write cout, instead of std::cout
 
 int main()
 {
-	// Write your farenheit to celsius conversion here
+	// Write your guessing game here
 	return 0;
 }

@@ -14,14 +14,14 @@ using namespace std;
 
 
 // Function Prototypes Here
-void printVector();
+void printVector(vector<string> set);
 void sortVec(vector<string> &set);
 
 
 int main()
 {
-	vector<string> set1 = {'banana','apple','pear'};
-	vector<string> set2 = {'abs', 'aas', 'aaa', 'at', 'zebra'};
+	vector<string> set1 = {"banana","apple","pear"};
+	vector<string> set2 = {"abs", "aas", "aaa", "at", "zebra"};
 
 	// Call your sorting function on the sets
 	// REPLACE WITH YOUR CODE
@@ -38,7 +38,7 @@ int main()
  * input:  set1 
  * output on one line: {'apple, banana, pear'}
  */
-void printVector()
+void printVector(vector<string> set)
 {
 
 }
